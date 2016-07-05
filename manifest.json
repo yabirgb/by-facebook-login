@@ -1,0 +1,12 @@
+{
+  "name": "Just let me",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Get rid of annoying login alert",
+  "content_scripts": [
+   {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["bye.js"]
+    }
+  ]
+}
