@@ -2,6 +2,11 @@
   "name": "Just let me",
   "manifest_version": 2,
   "version": "1.0",
+  "icons":{
+            "16":"dislike-icon-16.png",
+            "48":"dislike-icon-48.png",
+            "256":"dislike-icon.png"
+          },
   "description": "Get rid of annoying login alert",
   "content_scripts": [
    {
